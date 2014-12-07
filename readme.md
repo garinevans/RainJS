@@ -31,7 +31,7 @@ Options
 
     template: "<img src=\"{{image.src}}\" height=\"{{image.height}}\" /><p>{{description}}</p>",
 
-You can override the droplet template - the above is the default. Pass in your own variables using {{variablenName}}
+You can override the droplet template - the above is the default. Pass in your own variables using {{variableName}}
 The variable name corresponds to a property in your data object, i.e. {{image.src}} equates to image.src
 
     maxDroplets: 5,
