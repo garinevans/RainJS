@@ -16,7 +16,9 @@ Add the following JS to your project
 
 In RainJS, droplets are the individual elements that make up the layout
 
-The first parameter `parent` is the parent element to add the "droplets" too, the second `data` is the array of data you want to render. Here's the default format:
+The first parameter `parent` is the parent element to which the "droplets" are added. 
+
+The second parameter `data` is the array of data you want to render. Here's the default format:
 
     var data = [
         { image: {src: "images/cats/cat3.png", height: 267, alt: "test" }, description: "Lorem ipsum dolor sit amet" }`
