@@ -7,7 +7,9 @@ Instructions
 ==============
 
 Include jQuery - I'm working to remove jQuery as a dependency but unfortunately it's a requirement at the moment
+
 Include `rain.min.js` in your html file
+
 Add the following JS to your project
 
 `RAIN.pour($("#droplets"), data);`
