@@ -1,7 +1,7 @@
 Rain JS - v0.1
 ==============
 
-JS widget for creating cascading layouts
+JS widget for creating cascading layouts. Here's a demo: http://sandbox.garinevans.com/RainLayout/
 
 Instructions
 ==============
@@ -45,3 +45,31 @@ The spacing between droplets
 	dropletWidth: 200
 
 The max width of a droplet
+
+Styles
+======
+
+You're going to want to add some sort of style to your droplet. Here's some basic SASS that I used for the demo
+
+	.rain-droplet {
+		width: 200px;
+		background-color: white;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-bottom: 100px;
+
+		p{
+			font-size: 0.8em;
+			line-height: 20px;
+			text-align: left;
+			width: 180px;
+			color: black;
+			padding-bottom: 20px;
+		}
+
+		img {
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+		}
+	}
