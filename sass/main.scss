@@ -1,0 +1,82 @@
+$size: 60px;
+$form-width: 600px;
+
+$cube-width: 60px;
+$cube-height: 60px;
+
+$title-font: Lobster,cursive;
+
+$placeholder-colour: #1C495C;
+
+body {
+	background-color: #245D76;
+	margin: 0;
+}
+
+p {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 1.6em;
+	margin-top: 20px;
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+	color: rgb(159, 189, 209);
+
+	a {
+		color: rgb(159, 189, 209);
+		font-weight: 900;
+	}
+}
+
+header {
+	height: 100px;
+	background-color: #286783;
+	padding: 20px 0;
+}
+
+header div {
+	width: $form-width;
+	margin: 0 auto;
+	color: #102B36;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 900;
+}
+
+h1 {
+	font-family: $title-font;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 4em;
+	color: rgb(163, 220, 238);
+}
+
+.rain-droplet {
+	width: 200px;
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 100px;
+
+	p{
+		font-size: 0.8em;
+		line-height: 20px;
+		text-align: left;
+		width: 180px;
+		color: black;
+		padding-bottom: 20px;
+	}
+
+	img {
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+}
+
+#droplets {
+	position: relative;
+	margin-top: 50px;
+}
