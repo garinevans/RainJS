@@ -16,8 +16,7 @@ var data = [
 		{ image: {src: "images/cats/cat3.png", height: 267, alt: "test" }, description: "Lorem ipsum dolor sit amet" }
 	];
 
-RAIN.pour($("#droplets"), data);
 
-$(window).resize(function(){
-	RAIN.pour($("#droplets"), data);	
+$(document).ready(function(){
+	RAIN.pour($("#droplets"), data, { resize: true });
 });

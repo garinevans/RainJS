@@ -58,8 +58,6 @@ RAINLAYOUT.core = (function(){
 
 		}
 
-		console.log(RAINLAYOUT);
-
 		RAINLAYOUT.droplet.resetGlobals();
 		start(parent, data);
 	}

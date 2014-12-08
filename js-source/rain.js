@@ -1,5 +1,17 @@
-var RAIN = (function(){
+var RAIN = (function($){
+
+	function pour(parent, data, options){
+
+		if(options.resize === true){
+			$(window).resize(function(){
+				RAINLAYOUT.core.pour(parent, data, options);
+			});
+		}
+
+		RAINLAYOUT.core.pour(parent, data, options);
+	}
+
 	return {	
-		pour: RAINLAYOUT.core.pour		
+		pour: pour
 	};
-}());
+}(window.jQuery));

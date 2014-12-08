@@ -17,9 +17,11 @@ p {
     font-weight: 900; }
 
 header {
-  height: 100px;
+  display: block;
+  height: 200px;
   background-color: #286783;
-  padding: 20px 0; }
+  padding: 20px 0;
+  width: 100%; }
 
 header div {
   width: 600px;
