@@ -46,6 +46,10 @@ The spacing between droplets
 
 The max width of a droplet
 
+	resize: true/false
+
+Default false. Automatically add a window.resize event which redraws the droplets responsively
+
 Styles
 ======
 
