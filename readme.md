@@ -50,6 +50,10 @@ The max width of a droplet
 
 Default false. Automatically add a window.resize event which redraws the droplets responsively
 
+	top: 0
+
+The starting top location for the droplets
+
 Styles
 ======
 
