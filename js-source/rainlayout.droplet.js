@@ -42,7 +42,7 @@ if(!String.prototype.format){
 			GLOBALS.lastRow = [];
 			GLOBALS.currentRow = [];
 			GLOBALS.totalRowWidth = 0;
-			GLOBALS.top = 0;
+			GLOBALS.top = RAINLAYOUT.settings.top;
 			GLOBALS.rowCount = 0;
 			GLOBALS.margin = 0;				
 		}
@@ -117,7 +117,7 @@ if(!String.prototype.format){
 
 			GLOBALS.margin = (windowWidth - maxWidth) / 2;
 			
-			GLOBALS.top = 0;
+			GLOBALS.top = RAINLAYOUT.settings.top;
 			if(GLOBALS.lastRow[GLOBALS.rowCount] !== undefined && GLOBALS.lastRow[GLOBALS.rowCount].height > 0){
 				GLOBALS.top = GLOBALS.lastRow[GLOBALS.rowCount].height + GLOBALS.lastRow[GLOBALS.rowCount].top + RAINLAYOUT.settings.guttering;
 			}

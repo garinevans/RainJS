@@ -10,7 +10,10 @@ RAINLAYOUT.settings = {
 	//space between droplets
 	guttering: 10,
 
-	dropletWidth: 200
+	dropletWidth: 200,
+
+	//starting value for top
+	top: 0
 
 };
 
@@ -54,6 +57,9 @@ RAINLAYOUT.core = (function(){
 			}
 			if(options.dropletWidth){
 				RAINLAYOUT.settings.dropletWidth = options.dropletWidth;
+			}
+			if(options.top){
+				RAINLAYOUT.settings.top = options.top;
 			}
 
 		}
